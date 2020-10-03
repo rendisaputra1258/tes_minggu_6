@@ -23,7 +23,7 @@ $data_penjualan = [
     <title>Last</title>
 </head>
 <body>
-    <h1 style="text-align:center;" class="m-3">membuat laporan user interface dengan bootstrap</h1>
+    <h1 style="text-align:center;" class="m-3">Laporan Penjualan Jaya Mart</h1>
     <div class="container">
 
         <table class="table">
@@ -108,11 +108,38 @@ $data_penjualan = [
               <th scope="row">Garmelia</th>
               <td>20</td>
             </tr>
+            <tfoot>
+              <tr>
+                  <td>Total</td>
+                  <td>35</td>
+              </tr>
+          </tfoot>
+          </tbody>
+          <tfoot>
+              <br>
+              <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Makanan Ringan</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Pilus</th>
+              <td>230</td>
+            </tr>
+            <tr>
+              <th scope="row">Oreo</th>
+              <td>12</td>
+            </tr>
           </tbody>
           <tfoot>
               <tr>
                   <td>Total</td>
-                  <td>35</td>
+                  <td>242</td>
               </tr>
           </tfoot>
         </table>
@@ -121,7 +148,7 @@ $data_penjualan = [
         <table class="table">
           <thead class="thead-light">
             <tr>
-              <th scope="col">minyak</th>
+              <th scope="col">Minyak Goreng</th>
               <th scope="col"></th>
               <th scope="col"></th>
               <th scope="col"></th>
@@ -129,35 +156,42 @@ $data_penjualan = [
           </thead>
           <tbody>
             <tr>
-              <th scope="row">filma</th>
+              <th scope="row">Filma</th>
               <td>30</td>
             </tr>
             <tr>
-              <th scope="row">bimoli</th>
+              <th scope="row">Bimoli</th>
               <td>2</td>
             </tr>
             <tr>
-              <th scope="row">sunco</th>
+              <th scope="row">Sunko</th>
               <td>9</td>
             </tr>
             <tr>
-              <th scope="row">sania</th>
-              <td>10</td>
+              <th scope="row">Sania</th>
+              <td>11</td>
             </tr>
             <tr>
-              <th scope="row">fortune</th>
-              <td>11</td>
+              <th scope="row">Fortune</th>
+              <td>10</td>
             </tr>
           </tbody>
           <tfoot>
               <tr>
                   <td>Total</td>
-                  <td>52</td>
+                  <td>62</td>
               </tr>
           </tfoot>
         </table>
         <br>
-        <!-- -->
+        <!--  -->
+        <table class="table">
+          <thead class="thead-light">
+            <tr>
+              <th scope="col">Grand Total 493 </th>
+            </tr>
+        </table>
+        <br>
 
     </div>
 </body>
